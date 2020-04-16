@@ -1,0 +1,9 @@
+The Batwing is a custom stealth jet designed and built by Wayne Enterprise RnD. Its modular designs allows it to be outfitted with a variety of equipment.
+General statistics:
+
+ Wingspan: 35ft 
+ HUD and Targeting Computer 
+Arsenal:
+ Two side-mounted GE M134 Mini-guns 
+ Four wing-mounted missile launchers 
+ 
