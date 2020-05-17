@@ -2,3 +2,8 @@ Friday, April 17, 2020
 
 yesterday I was stressed because I thought I had dealth with the changing inventories showing different amounts of money but yesterday saw Batman and Batwing showed separate gold amounts in their inventories. Thought this was going to be show-stopper. Thought I'd have take lot of time re-working, possibly making global gold variable that carries across char changes. Then last night I realized that Batwing and Batmobile gold amounts only increase when enemies are defeated so this would give me more to work with in terms of circumventing the gold getting process, maybe just modify enemy death coding to catch gold drops in global gold variable instead of $game_party.gold.
 Well, today it turned out all I had to do was comment out one line of code in the Inventory module script when switching actor inventories. Just commented out the line @gold = new_inventory[3] and this completely remedied the issue. 
+
+05/07/20
+
+Took until today to figure out I didn't put exp gains as rewards for missions. This seems obvious for some reason right now getting ready to release first demo. This  will help level progression nicely. Playthrough from beginning to first detective mission took 15 minutes, less than I would have anticipated. I'm going to guess entire playthrough will take about 30 minutes. Also took all RTP files and put them into game folders so can release without rtp. Need trim the assets don't need to cut down on final file size.
+Made title screen better, put twoface coin, riddler mark, joker smile in sky. Don't like the way it looks, but it'll do. Ide release as a teaser with tagline "War is coming to Gotham".
