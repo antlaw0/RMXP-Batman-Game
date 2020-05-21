@@ -7,3 +7,14 @@ Well, today it turned out all I had to do was comment out one line of code in th
 
 Took until today to figure out I didn't put exp gains as rewards for missions. This seems obvious for some reason right now getting ready to release first demo. This  will help level progression nicely. Playthrough from beginning to first detective mission took 15 minutes, less than I would have anticipated. I'm going to guess entire playthrough will take about 30 minutes. Also took all RTP files and put them into game folders so can release without rtp. Need trim the assets don't need to cut down on final file size.
 Made title screen better, put twoface coin, riddler mark, joker smile in sky. Don't like the way it looks, but it'll do. Ide release as a teaser with tagline "War is coming to Gotham".
+
+05/18/20
+Game fully compresses and encrypts. Detective loop BGS too damn big, cut to around a minute and made it an SE, works well, just will cut out after sound ends. Possible weirdness because modified end detective mode comon event stop se not specify which se, just stops all se? 
+Could not get .jor encrypt program to run from
+https://forums.rpgmakerweb.com/index.php?threads/rpg-maker-xp-vx-encrypter-when-your-project-exceeds-128-mb.5126/
+What does work as described in commnets is to winrar or 7z extract gam.exe self-extracting archiving instead of pressing enter/double-clicking to self extract. Even all music encrypts and then un compresses well.
+Need remeber tell people to use winrar or 7z to extract game.exe compressed file or else will get "extraction failed message" error if just click self-extracting archive. 
+Only problem now is book/library scene can't find book files in data\books. Going to attempt write contents of text files right into script.
+Alternative script is Lilly's Librams
+https://forums.rpgmakerweb.com/index.php?threads/lilys-librams.103658/
+Only problem it is item based.
